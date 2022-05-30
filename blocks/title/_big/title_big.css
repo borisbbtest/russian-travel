@@ -1,0 +1,20 @@
+.title_big {
+    margin: 0;
+    font-size: 72px;
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+    .title_big {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 375px) {
+    .title_big {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -1,0 +1,19 @@
+.lead__image {
+    width: 100%;
+    display: block;
+    height: 615px;
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+    .lead__image {
+        max-height: 480px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__image {
+        max-height: 200px;
+    }
+}

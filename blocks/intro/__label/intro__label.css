@@ -1,0 +1,9 @@
+.intro__label {
+    margin-bottom: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.intro__label:last-child {
+    margin-bottom: 0;
+}

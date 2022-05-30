@@ -1,0 +1,27 @@
+.intro__text_col_left {
+    width: 70%;
+    font-size: 16px;
+    line-height: 163%;
+    padding-right: 15px;
+}
+
+@media (max-width: 1024px) {
+    .intro__text_col_left {
+        width:  75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro__text_col_left {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro__text_col_left {
+        font-size: 16px;
+        line-height: 27px;
+        padding-right: 0;
+    }
+}
+

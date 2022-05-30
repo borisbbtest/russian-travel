@@ -1,0 +1,23 @@
+.place__text {
+    padding-left: 40px;
+}
+
+@media (max-width: 1024px) {
+    .place__text {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 670px) {
+    .place__text {
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__text {
+        padding: 0 16px;
+        margin-top: 32px;
+    }
+}

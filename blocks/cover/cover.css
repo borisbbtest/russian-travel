@@ -1,0 +1,42 @@
+.cover {
+    margin-top: 92px;
+
+}
+
+.cover:hover {
+    cursor: pointer;
+}
+
+.cover:hover .cover__overlay::before {
+    background-color: rgba(42, 44, 47, .5);
+    transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        margin-top: 90px;
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cover {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover {
+        margin-top: 64px;
+    }
+}

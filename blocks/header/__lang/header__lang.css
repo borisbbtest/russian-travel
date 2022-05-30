@@ -1,0 +1,13 @@
+.header__lang {
+    width: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 320px) {
+    .header__lang {
+        width: 60px;
+    }
+}

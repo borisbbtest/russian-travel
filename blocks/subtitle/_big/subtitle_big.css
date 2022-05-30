@@ -1,0 +1,14 @@
+.subtitle_big {
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+@media (max-width: 320px) {
+    .subtitle_big {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
