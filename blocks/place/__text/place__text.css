@@ -1,4 +1,7 @@
 .place__text {
+    gap: 25px ;
+    display:flex;
+    flex-direction: column;
     padding-left: 40px;
 }
 
@@ -11,7 +14,6 @@
 @media (max-width: 670px) {
     .place__text {
         padding: 0;
-        margin-top: 20px;
     }
 }
 

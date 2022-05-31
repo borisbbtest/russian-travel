@@ -1,5 +1,6 @@
 .cover__background {
     max-width: 1184px;
+    position: relative;
     height: 740px;
     position: relative;
     background-image: linear-gradient(rgba(255, 255, 255, .2), rgba(42, 44, 47, .3)), url('../../../images/cover-trains.jpg');
@@ -10,7 +11,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: 1;
 }
 
 @media (max-width: 1024px) {
@@ -28,6 +28,6 @@
 
 @media (max-width: 320px) {
     .cover__background {
-        min-height: 272px;
+        min-height: 200px;
     }
 }

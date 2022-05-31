@@ -1,47 +1,48 @@
 .cover__title {
-    position: absolute;
     color: white;
-    top: 245px;
+    font-weight: 900;
     z-index: 3;
     width: 560px;
     height: 152px;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 245px;
     text-align: center;
     font-size: 72px;
+    text-decoration: none;
     line-height: 76px;
+    margin: 0;
 }
 
 @media (max-width: 1024px) {
     .cover__title {
-        top: 195px;
-        left: 50%;
-        transform: translate(-50%);
-        -webkit-transform: translate(-50%);
-        -moz-transform: translate(-50%);
-        -ms-transform: translate(-50%);
-        -o-transform: translate(-50%);
-}
+        padding-top: 195px;
+    }
 }
 
 @media (max-width: 768px) {
     .cover__title {
+        padding-top: 115px;
         font-size: 72px;
         line-height: 76px;
-        top: 115px;
         width: 70%;
     }
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 722px) {
     .cover__title {
         font-size: 40px;
         line-height: 45px;
-        width: 70%;
-        top: 39%;
+        width: 40%;
+        height: 34%;
+    }
+}
+
+@media (max-width: 703px) {
+    .cover__title {
+        width: 45%;
+        height: 34%;
     }
 }
 
@@ -57,13 +58,13 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        top: 40%;
     }
 }
 
 @media (max-width: 320px) {
     .cover__title {
-        width: 75%;
-        top: 30%;
+        padding-top: 33px;
+        width: 250px;
+        height: 70px;
     }
 }
