@@ -10,3 +10,5 @@ Name | Description
 HTML | язык гипертекстовой разметки
 CSS  | каскадные таблицы стилей
 SVG  | масштабируемая векторная графика
+
+Сайт создан с использованием [GitHub Pages](https://borisbbtest.github.io/russian-travel/).
