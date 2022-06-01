@@ -20,8 +20,6 @@
 
 @media (max-width: 320px) {
     .intro__text_col_left {
-        font-size: 16px;
-        line-height: 27px;
         padding-right: 0;
     }
 }

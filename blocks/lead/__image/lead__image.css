@@ -2,9 +2,13 @@
     width: 100%;
     display: block;
     height: 615px;
-}
+  }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .lead__image {
+        max-height: 580px;
+    }
+}
 
 @media (max-width: 768px) {
     .lead__image {

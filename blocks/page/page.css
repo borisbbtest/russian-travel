@@ -1,11 +1,22 @@
 .page {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
   background-color: #2A2C2F;
   color: #ffffff;
-  font-family: Inter;
+  font-family: 'Inter','Best Font Ever', 'Arial', 'Helvetica', sans-serif; ;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 1024px) {
+  .page {
+      width: 100%;
+      padding: 0;
+  }
 }

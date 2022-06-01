@@ -14,8 +14,7 @@
 
 @media (max-width: 768px) {
     .lead__figure {
-        padding: 0;
-        min-height: auto;
+       min-height: auto;
     }
 }
 
