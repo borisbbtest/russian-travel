@@ -1,7 +1,6 @@
 .cover {
     max-width: 1184px;
     position: relative;
-    background-color: rgba(42, 44, 47, 0.3);
     background-image:url('../../images/cover-trains.jpg');
     background-position:center;
     margin-left: auto;
@@ -16,15 +15,6 @@
 
 .cover:hover {
     cursor: pointer;
-}
-
-.cover:hover .cover__overlay::before {
-    background-color:rgba(42,44,47,.8);
-    transition:  background-color 0.3s linear;
-    -webkit-transition:  background-color 0.3s linear;
-    -moz-transition:  background-color 0.3s linear;
-    -ms-transition:  background-color 0.3s linear;
-    -o-transition:  background-color 0.3s linear;
 }
 
 @media (max-width: 1024px) {
