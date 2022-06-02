@@ -1,0 +1,17 @@
+.section_width_low {
+    max-width: 984px;
+    padding: 0;
+}
+
+
+@media (max-width: 1024px) {
+    .section_width_low {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section_width_low {
+        max-width: 100%;
+    }
+}
